@@ -38,14 +38,7 @@ The analysis is intended to move beyond simply reporting numbers and provide a s
 
 ## Dashboard Highlights
 
-The executive dashboard includes the following KPIs:
-          
-Revenue                        <br>
-Orders                         <br>
-AOV                            <br>
-Avg. Rating                    <br>
-Avg. Delivery                  <br>
-On-Time Delivery               <br>
+The executive dashboard includes the following KPIs - Revenue, Orders, AOV, Avg. Rating, Avg. Delivery and On-Time Delivery.
 
 The dashboard also contains:
 
