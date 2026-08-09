@@ -14,7 +14,7 @@ The dashboard combines executive KPIs, time-series analysis, geographic analysis
 
 ## Business Objective
 
-* The dashboard is designed to help a business:
+The dashboard is designed to help a business:
 
 * Monitor overall revenue and order performance
 
