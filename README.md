@@ -144,9 +144,24 @@ The objective was to separate data preparation from analysis and visualization, 
 
 ## Data Model / Schema --- Power Pivot
 
-The data model follows a fact-and-dimension structure. The Power Pivot schema shows the relationships between the central `FactSales` table and the supporting dimensions and review summary.
+The project uses a structured Power Pivot data model with `FactSales` as the central transactional table and supporting dimension tables.
 
-![Olist Power Pivot Data Model](images/power-pivot-data-model.png)
+| Table | Purpose | Key fields |
+|---|---|---|
+| **FactSales** | Central sales transaction table | `order_id`, `product_id`, `seller_id`, `customer_id`, `price`, `freight_value`, order dates |
+| **Dim_Date** | Time-based analysis | Year, Quarter, Month, Date |
+| **Dim_Product** | Product and category analysis | `product_id`, `product_category_name` |
+| **Dim_Seller** | Seller performance | `seller_id`, `seller_city`, `seller_state`, `seller_rank` |
+| **Dim_Customer** | Customer and geographic analysis | `customer_id`, `customer_unique_id`, `customer_state` |
+| **Reviews_Summary** | Customer satisfaction analysis | `order_id`, `avg_review_score`, `review_count` |
+| **Dim_State** | State reference | `StateCode`, `StateName` |
+
+### Power Pivot Data Model
+
+The following diagram shows the relationships between the central
+`FactSales` table and the supporting tables.
+
+![Olist-Performance-Analysis](images/power-pivot-data-model.png)
 
 The model separates descriptive attributes from transactional sales data, which makes it easier to build reusable measures and interactive reports.
 
