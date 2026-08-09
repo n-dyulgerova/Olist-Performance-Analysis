@@ -146,7 +146,7 @@ The objective was to separate data preparation from analysis and visualization, 
 
 The data model follows a fact-and-dimension structure. The Power Pivot schema shows the relationships between the central `FactSales` table and the supporting dimensions and review summary.
 
-![Olist Power Pivot Data Model](images/data-model.png)
+![Olist Power Pivot Data Model](images/power-pivot-data-model.png)
 
 The model separates descriptive attributes from transactional sales data, which makes it easier to build reusable measures and interactive reports.
 
