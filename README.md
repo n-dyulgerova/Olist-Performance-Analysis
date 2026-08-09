@@ -40,12 +40,12 @@ The analysis is intended to move beyond simply reporting numbers and provide a s
 
 The executive dashboard includes the following KPIs:
           
-Revenue                        R$ 13,541,858
-Orders                         98,354
-AOV                            R$ 138
-Avg. Rating                    4.11
-Avg. Delivery                  12 days
-On-Time Delivery               89.9%
+Revenue                        R$ 13,541,858<br>
+Orders                         98,354<br>
+AOV                            R$ 138<br>
+Avg. Rating                    4.11<br>
+Avg. Delivery                  12 days<br>
+On-Time Delivery               89.9%<br>
 
 The dashboard also contains:
 
