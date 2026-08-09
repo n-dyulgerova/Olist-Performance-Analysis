@@ -91,13 +91,9 @@ The revenue trend visual tracks monthly revenue across 2017 and 2018, helping id
 
 3. Seller Performance
 
-The seller scorecard compares: revenue, orders, average rating, average order value, average delivery days, on-time delivery in %
+The seller scorecard compares: revenue, orders, average rating, average order value, average delivery days, on-time delivery in %.
 
 This creates a multidimensional view of seller performance rather than ranking sellers by revenue alone.
-
-For example, the dashboard shows that Seller 1014 generated R$ 222,776 from 358 orders with an AOV of R$ 622 and an on-time rate of 93.0%,while Seller 0882 generated R$ 200,473 from 1,806 orders with an AOV of R$ 111 and an on-time rate of 87.3%.
-
-This illustrates why looking at several KPIs simultaneously can provide more useful business insight than revenue alone.
 
 4. Delivery Performance
 
@@ -158,22 +154,6 @@ The objective was to separate data preparation from analysis and visualization, 
 The data model follows a fact-and-dimension structure. The Power Pivot schema shows the relationships between the central `FactSales` table and the supporting dimensions and review summary.
 
 ![Olist Power Pivot Data Model](images/data-model.png)
-Schema Overview
-
-                         Dim_Date
-                            |
-                            |
-                            v
-Dim_Product  -------->  FactSales  <-------- Dim_Seller
-                            |
-                            |
-                 +----------+----------+
-                 |                     |
-                 v                     v
-          Dim_Customer          Reviews_Summary
-
-
-
 
 The model separates descriptive attributes from transactional sales data, which makes it easier to build reusable measures and interactive reports.
 
