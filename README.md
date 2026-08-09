@@ -7,7 +7,7 @@ This project is an interactive sales and performance analytics dashboard built e
 
 The project was designed to answer a practical business question:
 
-### How can sales, product, seller, customer, and delivery data betransformed into actionable insights that support better commercialand operational decisions?
+### How can sales, product, seller, customer, and delivery data be transformed into actionable insights that support better commercial and operational decisions?
 
 The dashboard combines executive KPIs, time-series analysis, geographic analysis, product/category performance, delivery performance, customer ratings, and seller performance in one interactive analytical view.
 
