@@ -39,9 +39,7 @@ The analysis is intended to move beyond simply reporting numbers and provide a s
 ## Dashboard Highlights
 
 The executive dashboard includes the following KPIs:
-
-KPI                
-
+          
 Revenue                        R$ 13,541,858
 Orders                         98,354
 AOV                            R$ 138
