@@ -10,7 +10,7 @@ Give business stakeholders a self-service, slicer-driven view of revenue, delive
 
 Raw Olist tables (orders, order items, products, sellers, customers, reviews) were loaded and cleaned with Power Query, then modeled in Power Pivot as a star schema: a central FactSales table linked to Dim_Date, Dim_Product, Dim_Seller, Dim_Customer, Dim_State, and a Reviews_Summary table.
 
-## Show Image
+![Power BI Dashboard](images/power-pivot-data-model.png)
 
 * Key DAX Measures
 * Revenue — total sales value
