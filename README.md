@@ -12,7 +12,9 @@ Raw Olist tables (orders, order items, products, sellers, customers, reviews) we
 
 ![Power BI Dashboard](images/power-pivot-data-model.png)
 
-* Key DAX Measures
+Note: Dim_State is intentionally left unconnected to the rest of the model — it's kept as a standalone lookup table rather than wired into the relationships shown above.
+
+Key DAX Measures
 * Revenue — total sales value
 * Total Orders
 * Average Order Value (AOV)
