@@ -36,6 +36,10 @@ The Executive Dashboard brings these measures together with interactive slicers 
 ## Demo
 A short screen recording (Olist_Dashboard_Demo.mp4) shows the slicers and cross-filtering in action — selecting a state or category updates every chart and KPI on the dashboard live.
 
+## Notes & Assumptions
+All monetary values (revenue, price, freight, AOV) are in Brazilian Reals (BRL).
+2016 was excluded from the analysis due to insufficient transaction volume.
+
 ## Tools
 Excel, Power Query, Power Pivot, DAX
 
